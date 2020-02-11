@@ -1,0 +1,16 @@
+﻿  HideAgent.cpp
+D:\Documents\Universidad\Universidad\Trimestre7\InteligenciaArtificial\ProyectoFinal\SteeringBehaviors\Vector.h(57,12): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\Universidad\Universidad\Trimestre7\InteligenciaArtificial\ProyectoFinal\SteeringBehaviors\Vector.h(56): message : while compiling class template member function 'T Vector<T>::GetAt(unsigned int)'
+          with
+          [
+              T=Obstacle
+          ]
+D:\Documents\Universidad\Universidad\Trimestre7\InteligenciaArtificial\ProyectoFinal\SteeringBehaviors\HideAgent.cpp(49): message : see reference to function template instantiation 'T Vector<T>::GetAt(unsigned int)' being compiled
+          with
+          [
+              T=Obstacle
+          ]
+D:\Documents\Universidad\Universidad\Trimestre7\InteligenciaArtificial\ProyectoFinal\SteeringBehaviors\HideAgent.cpp(48): message : see reference to class template instantiation 'Vector<Obstacle>' being compiled
+D:\Documents\Universidad\Universidad\Trimestre7\InteligenciaArtificial\ProyectoFinal\SteeringBehaviors\Vector.h(59): warning C4715: 'Vector<Obstacle>::GetAt': not all control paths return a value
+D:\Documents\Universidad\Universidad\Trimestre7\InteligenciaArtificial\ProyectoFinal\SteeringBehaviors\Vector.h(59): warning C4715: 'Vector<Vec2>::GetAt': not all control paths return a value
+  Match3.vcxproj -> D:\Documents\Universidad\Universidad\Trimestre7\InteligenciaArtificial\ProyectoFinal\SteeringBehaviors\x64\Debug\Match3.exe
